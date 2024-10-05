@@ -10,7 +10,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="94,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="nl-nl" Text="Kleurenpsychologie"/><LineBreak/><Run Language="nl-nl"/></TextBlock>
-        <Image Margin="689,10,19,330" Source="/PXL.png" Stretch="Fill"/>
+        <Image Margin="708,0,0,340" Source="/PXL.png" Stretch="Fill"/>
 
     </Grid>
 </Window>
