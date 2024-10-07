@@ -11,5 +11,13 @@
     <Grid>
         <Image x:Name="pxlImage"  HorizontalAlignment="Left" Height="117" Margin="591,0,0,0" VerticalAlignment="Top" Width="204" MouseEnter="pxlImage_MouseEnter" MouseLeave="pxlImage_MouseLeave" Source="/PXL.png" />
         <TextBlock HorizontalAlignment="Left" Margin="60,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="nl-be" Text="Kleurenpsychologie"/></TextBlock>
+        <Image x:Name="roodImage" Margin="112,80,519,242" MouseLeftButtonUp="roodImage_Click" Source="/Rood.png" Stretch="Fill"/>
+        <Image x:Name="geelImage" Margin="281,80,350,242" MouseLeftButtonUp="geelImage_Click" Source="/Geel.png" Stretch="Fill"/>
+        <Image x:Name="blauwImage" Margin="281,192,350,130" MouseLeftButtonUp="blauwImage_Click" Source="/Blauw.png" Stretch="Fill"/>
+        <Image x:Name="groenImage" Margin="112,192,519,130" MouseLeftButtonUp="groenImage_Click" Source="/Groen.png" Stretch="Fill"/>
+        <TextBlock x:Name="kleurText" HorizontalAlignment="Left" Margin="24,339,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="nl-be" Text="Kleurcode"/></TextBlock>
+        <TextBlock x:Name="infoText" HorizontalAlignment="Right" Margin="0,358,715,0" TextWrapping="Wrap" Text="Informatie" VerticalAlignment="Top" Height="16" Width="61"/>
+        <TextBlock x:Name="kleurShow" HorizontalAlignment="Left" Margin="112,339,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="394"/>
+        <TextBlock x:Name="infoShow" HorizontalAlignment="Left" Margin="112,358,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="394"/>
     </Grid>
 </Window>
