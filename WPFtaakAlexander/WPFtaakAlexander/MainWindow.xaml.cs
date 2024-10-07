@@ -39,21 +39,25 @@ namespace WPFtaakAlexander
         private void roodImage_Click(object sender, MouseButtonEventArgs e)
         {
             kleurShow.Text = "- Rood #FF0000";
+            infoShow.Text = "Rood is de kleur van warmte";
         }
 
         private void geelImage_Click(object sender, MouseButtonEventArgs e)
         {
             kleurShow.Text = "- Geel #FFFF00";
+            infoShow.Text = "Geel is de kleur van levenslust";
         }
 
         private void blauwImage_Click(object sender, MouseButtonEventArgs e)
         {
             kleurShow.Text = "- Blauw: #0000FF";
+            infoShow.Text = "Blauw is de kleur van intelligentie";
         }
 
         private void groenImage_Click(object sender, MouseButtonEventArgs e)
         {
             kleurShow.Text = "- Groen: #008000";
+            infoShow.Text = "Groen is de kleur van genezing";
         }
     }
 
